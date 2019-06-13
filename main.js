@@ -1,3 +1,5 @@
+'use strict';
+
 function daysInYear(year) {
   if (/^\d{4}$/.test(year)) {
     if(year % 4 === 0) {
